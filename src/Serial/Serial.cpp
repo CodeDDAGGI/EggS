@@ -341,7 +341,17 @@ bool serialProcessing() {
 
                     // Previous led all off !! (2022.03.17). bug reported. Any mode at previous whole the led off now !!
                     ledOff();
-                    
+                    // 추가
+                    ledSTART        = false;
+                    ledEachStart    = false;
+                    ledOnDelayCount = 0;
+                    ledOnOffLoopCNT = 0;
+                    nowLedOffCount  = 0;
+
+                    for(int i = 0; i < ledCount; i++) {
+                        ledPreTimeArray[i] = millis();
+                    }
+
                     SerialUSB.println("MODE CHANGED -----> ENCODER MODE");
                 
               } else if(runMode == TIMER_MODE){

@@ -359,6 +359,7 @@ void loop() {
 
             // timer 처리 (개별 led duration time 처리 function call) 
             if(ledEachStart) ledEachOff();
+
         }
           
         //  3. CAMERA TRIGGER 전달 (with delay & duration) //////////////////////////////////////////////////////////////////////////

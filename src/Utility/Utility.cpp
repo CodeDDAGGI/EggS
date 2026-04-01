@@ -170,26 +170,26 @@
           #endif
 
 
-          // LED DURATION 에서 최종 마무리 (24 LED OFF) 강제 소등 - 전체
-          // Whole the LED off time
-          if(nowLedOffCount >= ledCount) {
+        // LED DURATION 에서 최종 마무리 (24 LED OFF) 강제 소등 - 전체
+        // Whole the LED off time
+        //   if(nowLedOffCount >= ledCount) {
 
-             // 무조건 LED OFF
-             ledOff();
-  
-              // LED VALUES INIT()
-              ledSTART =        false;
-              ledOnOffLoopCNT = 0;
-              ledOnDelayCount = 0;
-              nowLedOffCount =  0;
-              ledEachStart =    false;
-  
-              // ledOnCount = 0; // NOT USED NOW !!
-  
-              #ifdef EACH_LED_DEBUG
-                  SerialUSB.println("LED OFF FINISHED. LED INIT()");
-              #endif
-          }
+        //      // 무조건 LED OFF
+        //      ledOff();
+
+        //       // LED VALUES INIT()
+        //       ledSTART =        false;
+        //       ledOnOffLoopCNT = 0;
+        //       ledOnDelayCount = 0;
+        //       nowLedOffCount =  0;
+        //       ledEachStart =    false;
+
+        //       // ledOnCount = 0; // NOT USED NOW !!
+
+        //       #ifdef EACH_LED_DEBUG
+        //           SerialUSB.println("LED OFF FINISHED. LED INIT()");
+        //       #endif
+        //   }
 
           #ifdef DEBUG_LED_DURATION
               ledDurationList();
