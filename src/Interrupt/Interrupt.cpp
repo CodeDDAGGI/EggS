@@ -313,10 +313,11 @@ void handleStepBoundaryEvent()
     g_stepBoundaryEvent = false;
 
     if (!eggSTART) return;
+    if (oneStepCounter < 150) return; 
 
-    if (oneStepCounter < 150 || nowEncoderCount > 3) {
-        return;
-    }
+    // if (oneStepCounter < 150 || nowEncoderCount > 3) {
+    //     return;
+    // }
 
     if (eggBadExitSTART) {
         EggExit::badExitOffOne();
