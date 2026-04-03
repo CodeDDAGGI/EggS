@@ -1,0 +1,77 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/include",
+                "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/src",
+                "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/.pio/libdeps/dueUSB/SimpleTimer",
+                "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/.pio/libdeps/dueUSB/DueFlashStorage/src",
+                "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/.pio/libdeps/dueUSB/Adafruit PWM Servo Driver Library",
+                "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/.pio/libdeps/dueUSB/Adafruit BusIO",
+                "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
+                "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/libraries/Wire/src",
+                "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/src/config",
+                "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/cores/arduino",
+                "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/system/libsam",
+                "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
+                "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/system/CMSIS/Device/ATMEL",
+                "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/variants/arduino_due_x",
+                "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/libraries/HID/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/include",
+                    "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/src",
+                    "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/.pio/libdeps/dueUSB/SimpleTimer",
+                    "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/.pio/libdeps/dueUSB/DueFlashStorage/src",
+                    "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/.pio/libdeps/dueUSB/Adafruit PWM Servo Driver Library",
+                    "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/.pio/libdeps/dueUSB/Adafruit BusIO",
+                    "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/libraries/SPI/src",
+                    "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/libraries/Wire/src",
+                    "D:/07.BG-Project/01.계란선별기/00.firm-ware/께란 코드/Egg-Board/eggBoard4.0 - 260401(OK)/src/config",
+                    "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/cores/arduino",
+                    "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/system/libsam",
+                    "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/system/CMSIS/CMSIS/Include",
+                    "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/system/CMSIS/Device/ATMEL",
+                    "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/variants/arduino_due_x",
+                    "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/framework-arduino-sam/libraries/HID/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60119",
+                "__SAM3X8E__",
+                "ARDUINO_SAM_DUE",
+                "ARDUINO_SAM_DUE",
+                "VARIANT_H=\"variant/variant.h\"",
+                "DEBUG_TRIGGER",
+                "ARDUINO=10805",
+                "F_CPU=84000000L",
+                "USBCON",
+                "USB_VID=0x2341",
+                "USB_PID=0x003E",
+                "USB_PRODUCT=\"Arduino Due\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "ARDUINO_ARCH_SAM",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "D:/07.BG-Project/00.소형운반로봇_메카넘휠/09. j.river/PIO_CLI_UPLOAD_202601016 (1)/PIO_CLI_UPLOAD/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m3",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
